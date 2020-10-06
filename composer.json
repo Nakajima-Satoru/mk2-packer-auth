@@ -1,0 +1,19 @@
+{
+	"name":"mk2/packer_auth",
+	"description": "Packer class for authentication operation dedicated to PHP framework 'Mark2'.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "Nakajima Satoru",
+		"email": "info@mk2-php.com"
+	}],
+	"keywords": ["PHP","Framework","mk2","Web","Packer","Auth","AuthBase"],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"mk2\\packer_auth\\":"src/"
+		}
+	}
+}
